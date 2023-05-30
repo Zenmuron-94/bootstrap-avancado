@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrule Field</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img id="img-cabecalho" src="./img/The-Legend-of-Zelda-Logo.png" alt="zelda logo">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.nintendo.com/search/pt-br/#q=zelda&p=1&cat=all&sort=df">Jogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="container">
+            <div id="carousel-principal" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100 " src="./img/Zelda-TOTK.jpg" />
+                        <div class="carousel-caption">
+                            <h2>The Legend of Zelda Tears of the Kingdom</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100 " src="./img/zelda-ocarina.jpg" />
+                        <div class="carousel-caption">
+                            <h2>The Legend of Zelda Ocarina of Time</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100 " src="./img/zelda-minishcap.jpg" />
+                        <div class="carousel-caption">
+                            <h2>The Legend of Zelda Minish Cap</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-principal" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-principal" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-principal" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark mb-5">
+                        <img src="./img/zelda-totk-card.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Conheça o novo jogo da Franquia</h4>
+                            <h5 class="card-subtitle">Explore um mundo vasto</h5>
+                            <p class="card-text">
+                                Tears of The Kingdom começa logo após a conclusão dos acontecimentos de Breath of the Wild. Depois da derrota de Calamity Ganon, Link consegue libertar Zelda e eles se aventuram pelo castelo de Hyrule - onde encontram um corpo mumificado que parece o de Ganondorf.
+                                A partir deste momento, uma energia maligna desperta e separa Zelda e Link e o castelo de Hyrule se desprende do continente - vale ressaltar que o céu será bastante explorando em TotK, algo que já foi relativamente ...
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver completo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark mb-5">
+                        <img src="./img/zelda-ocarina-card.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Vale a pena jogar denovo</h4>
+                            <h5 class="card-subtitle">Relembre o clássico</h5>
+                            <p class="card-text">
+                                Link é um jovem da floresta que vê seu lar em perigo e parte em uma jornada para deter um rei maligno e salvar o reino de Hyrule! Para completar sua missão, ele terá que encontrar a princesa Zelda e ajudar outros povos para reunir a Triforce e restabelecer o equilíbrio do mundo!
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver Completo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-bg-dark mb-5">
+                        <img src="./img/zelda-minishcap-card.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Uma Joia escondida</h4>
+                            <h5 class="card-subtitle">Pouco conhecido porem Fantastico</h5>
+                            <p class="card-text"style="max-height: 2000px; overflow: hidden;">
+                                A história começa com a Princesa Zelda levando seu melhor amigo Link para a centésima edição do festival - onde em tese a porta para o mundo dos Minish se abre. Um homem misterioso chamado Vaati, que venceu o concurso de espadachins do festival, quebra a espada dos Picori, e com seus poderes mágicos infesta Hyrule de monstros e petrifica Zelda. O rei de Hyrule pede a Link para entrar em contato com os Minish para ver se eles podem ajudar a quebrar a maldição da Zelda.
+                            </p>
+                            <a href="#" class="btn btn-primary">Ver Completo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

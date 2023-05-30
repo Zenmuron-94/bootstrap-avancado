@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(36,94,55,0.97);
+    z-index: 1;
+    
+}
+.navbar-nav  .nav-link.active{
+    color: gold;
+}
+
+.nav-link{
+    text-align: center;
+    color: white;
+}
+
+section{
+    height: 100vh;
+    background-color: white;
+    padding-top: 90px;
+}
+
+body{
+    background-color: #f7f6f1;
+}
+
+.container #img-cabecalho{
+    height: 80px;
+}
+
+.container #carousel-principal{
+    margin-top: 50px;
+    z-index: 0;
+    
+}
+
+#carousel-principal h2{
+    color:  gold;
+    border: solid 2px rgba(36,94,55,0.7);
+    background-color: rgba(36,94,55,0.7);
+}
+
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.card-img-overlay{
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+.card-title{
+    color: gold;
+}
+
+.card-subtitle{
+    color: red;
+}
+
+
